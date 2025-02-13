@@ -13,14 +13,15 @@ Memory Map Viewer is a graphical tool for visualizing memory maps, specifically 
 ## Usage
 1. Open the Memory Map Viewer.
 2. Drag and drop a `*.sym` file onto the window.
-3. Use the mouse wheel to zoom in/out.
-4. Right-click and drag to move around.
-5. Press `Q` to switch ROM modes.
-6. Press `Enter` to enter search mode and type your query.
-7. Use the `Up` and `Down` arrow keys to navigate search results.
+3. Press `+` or `-` for switching rombanks
+4. Use the mouse wheel to zoom in/out.
+5. Right-click and drag to move around.
+6. Press `Q` to switch ROM modes.
+7. Press `Enter` to enter search mode and type your query.
+8. Use the `Up` and `Down` arrow keys to navigate search results.
 
 ## Installation
-Download the latest release from the [GitHub Releases](https://github.com/your-repo/memory-map-viewer/releases) page and run the executable.
+Download the latest release from the [GitHub Releases](https://github.com/nub1604/mmv/releases) page and run the executable.
 
 ## Contributing
 Contributions are welcome! Feel free to submit issues and pull requests.
