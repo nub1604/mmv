@@ -1,0 +1,85 @@
+{
+  "LayoutList": [
+    {
+      "Label": "LowRam",
+      "BankStart": "0x0",
+      "BankEnd": "0x3F",
+      "SectionStart": "0x0",
+      "SectionEnd": "0x1FFF",
+      "BlendColor": "#005050"
+    },
+    {
+      "Label": "LowRam",
+      "BankStart": "0x7E",
+      "BankEnd": "0x7E",
+      "SectionStart": "0x0",
+      "SectionEnd": "0x1FFF",
+      "BlendColor": "#005050"
+    },
+    {
+      "Label": "LowRam",
+      "BankStart": "0x80",
+      "BankEnd": "0xBF",
+      "SectionStart": "0x0",
+      "SectionEnd": "0x1FFF",
+      "BlendColor": "#005050"
+    },
+    {
+      "Label": "I/O",
+      "BankStart": "0x0",
+      "BankEnd": "0x3F",
+      "SectionStart": "0x2000",
+      "SectionEnd": "0x5FFF",
+      "BlendColor": "#505050"
+    },
+    {
+      "Label": "I/O",
+      "BankStart": "0x80",
+      "BankEnd": "0xBF",
+      "SectionStart": "0x2000",
+      "SectionEnd": "0x5FFF",
+      "BlendColor": "#505050"
+    },
+    {
+      "Label": "Mirror of ROM",
+      "BankStart": "0x0",
+      "BankEnd": "0x3F",
+      "SectionStart": "0x8000",
+      "SectionEnd": "0xFFFF",
+      "BlendColor": "#505000"
+    },
+    {
+      "Label": "Mirror of ROM",
+      "BankStart": "0x80",
+      "BankEnd": "0xBF",
+      "SectionStart": "0x8000",
+      "SectionEnd": "0xFFFF",
+      "BlendColor": "#b3b300"
+    },
+    {
+      "Label": "ROM",
+      "BankStart": "0xC0",
+      "BankEnd": "0xFF",
+      "SectionStart": "0x0",
+      "SectionEnd": "0xFFFF",
+      "BlendColor": "#AA6C39"
+    },
+    {
+      "Label": "SRAM",
+      "BankStart": "0x30",
+      "BankEnd": "0x3F",
+      "SectionStart": "0x6000",
+      "SectionEnd": "0x7FFF",
+      "BlendColor": "#013415"
+    },
+    {
+      "Label": "WRAM",
+      "BankStart": "0x7E",
+      "BankEnd": "0x7F",
+      "SectionStart": "0x0",
+      "SectionEnd": "0xFFFF",
+      "BlendColor": "#500000"
+    }
+  ],
+  "Name": "HiRom"
+}

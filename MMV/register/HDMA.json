@@ -1,0 +1,710 @@
+{
+  "LayoutList": [
+    {
+      "Label": "HDMA Control Register",
+      "Address": "0x4300",
+      "LabelShort": "DMAP0",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Destination Register",
+      "Address": "0x4301",
+      "LabelShort": "BBAD0",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4302",
+      "LabelShort": "A1T0L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4303",
+      "LabelShort": "A1T0H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4304",
+      "LabelShort": "A1B0",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4305",
+      "LabelShort": "DAS0L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4306",
+      "LabelShort": "DAS0H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4307",
+      "LabelShort": "DASB0",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (Low)",
+      "Address": "0x4308",
+      "LabelShort": "A2A0L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (High)",
+      "Address": "0x4309",
+      "LabelShort": "A2A0H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Line Counter Register",
+      "Address": "0x430A",
+      "LabelShort": "NTLR0",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Control Register",
+      "Address": "0x4310",
+      "LabelShort": "DMAP1",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Destination Register",
+      "Address": "0x4311",
+      "LabelShort": "BBAD1",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4312",
+      "LabelShort": "A1T1L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4313",
+      "LabelShort": "A1T1H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4314",
+      "LabelShort": "A1B1",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4315",
+      "LabelShort": "DAS1L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4316",
+      "LabelShort": "DAS1H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4317",
+      "LabelShort": "DASB1",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (Low)",
+      "Address": "0x4318",
+      "LabelShort": "A2A1L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (High)",
+      "Address": "0x4319",
+      "LabelShort": "A2A1H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Line Counter Register",
+      "Address": "0x431A",
+      "LabelShort": "NTLR1",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Control Register",
+      "Address": "0x4320",
+      "LabelShort": "DMAP2",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Destination Register",
+      "Address": "0x4321",
+      "LabelShort": "BBAD2",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4322",
+      "LabelShort": "A1T2L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4323",
+      "LabelShort": "A1T2H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4324",
+      "LabelShort": "A1B2",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4325",
+      "LabelShort": "DAS2L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4326",
+      "LabelShort": "DAS2H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4327",
+      "LabelShort": "DASB2",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (Low)",
+      "Address": "0x4328",
+      "LabelShort": "A2A2L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (High)",
+      "Address": "0x4329",
+      "LabelShort": "A2A2H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Line Counter Register",
+      "Address": "0x432A",
+      "LabelShort": "NTLR2",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Control Register",
+      "Address": "0x4330",
+      "LabelShort": "DMAP3",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Destination Register",
+      "Address": "0x4331",
+      "LabelShort": "BBAD3",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4332",
+      "LabelShort": "A1T3L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4333",
+      "LabelShort": "A1T3H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4334",
+      "LabelShort": "A1B3",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4335",
+      "LabelShort": "DAS3L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4336",
+      "LabelShort": "DAS3H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4337",
+      "LabelShort": "DASB3",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (Low)",
+      "Address": "0x4338",
+      "LabelShort": "A2A3L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (High)",
+      "Address": "0x4339",
+      "LabelShort": "A2A3H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Line Counter Register",
+      "Address": "0x433A",
+      "LabelShort": "NTLR3",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Control Register",
+      "Address": "0x4340",
+      "LabelShort": "DMAP4",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Destination Register",
+      "Address": "0x4341",
+      "LabelShort": "BBAD4",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4342",
+      "LabelShort": "A1T4L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4343",
+      "LabelShort": "A1T4H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4344",
+      "LabelShort": "A1B4",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4345",
+      "LabelShort": "DAS4L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4346",
+      "LabelShort": "DAS4H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4347",
+      "LabelShort": "DASB4",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (Low)",
+      "Address": "0x4348",
+      "LabelShort": "A2A4L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (High)",
+      "Address": "0x4349",
+      "LabelShort": "A2A4H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Line Counter Register",
+      "Address": "0x434A",
+      "LabelShort": "NTLR4",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Control Register",
+      "Address": "0x4350",
+      "LabelShort": "DMAP5",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Destination Register",
+      "Address": "0x4351",
+      "LabelShort": "BBAD5",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4352",
+      "LabelShort": "A1T5L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4353",
+      "LabelShort": "A1T5H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4354",
+      "LabelShort": "A1B5",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4355",
+      "LabelShort": "DAS5L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4356",
+      "LabelShort": "DAS5H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4357",
+      "LabelShort": "DASB5",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (Low)",
+      "Address": "0x4358",
+      "LabelShort": "A2A5L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (High)",
+      "Address": "0x4359",
+      "LabelShort": "A2A5H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Line Counter Register",
+      "Address": "0x435A",
+      "LabelShort": "NTLR5",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Control Register",
+      "Address": "0x4360",
+      "LabelShort": "DMAP6",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Destination Register",
+      "Address": "0x4361",
+      "LabelShort": "BBAD6",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4362",
+      "LabelShort": "A1T6L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4363",
+      "LabelShort": "A1T6H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4364",
+      "LabelShort": "A1B6",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4365",
+      "LabelShort": "DAS6L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4366",
+      "LabelShort": "DAS6H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4367",
+      "LabelShort": "DASB6",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (Low)",
+      "Address": "0x4368",
+      "LabelShort": "A2A6L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (High)",
+      "Address": "0x4369",
+      "LabelShort": "A2A6H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Line Counter Register",
+      "Address": "0x436A",
+      "LabelShort": "NTLR6",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Control Register",
+      "Address": "0x4370",
+      "LabelShort": "DMAP7",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Destination Register",
+      "Address": "0x4371",
+      "LabelShort": "BBAD7",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4372",
+      "LabelShort": "A1T7L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4373",
+      "LabelShort": "A1T7H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Table Address Registers",
+      "Address": "0x4374",
+      "LabelShort": "A1B7",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4375",
+      "LabelShort": "DAS7L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4376",
+      "LabelShort": "DAS7H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Indirect Address Registers",
+      "Address": "0x4377",
+      "LabelShort": "DASB7",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (Low)",
+      "Address": "0x4378",
+      "LabelShort": "A2A7L",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Mid Frame Table Address Registers (High)",
+      "Address": "0x4379",
+      "LabelShort": "A2A7H",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    },
+    {
+      "Label": "HDMA Line Counter Register",
+      "Address": "0x437A",
+      "LabelShort": "NTLR7",
+      "Style": "",
+      "Access": "",
+      "Timing": ""
+    }
+  ],
+  "Name": "HDMA",
+  "Color": "#702020"
+}

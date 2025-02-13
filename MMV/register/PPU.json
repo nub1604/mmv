@@ -1,0 +1,550 @@
+{
+  "LayoutList": [
+    {
+      "Label": "Screen Display Register",
+      "Address": "0x2100",
+      "LabelShort": "INIDISP",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Object Size and Character Size Register",
+      "Address": "0x2101",
+      "LabelShort": "OBSEL",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "OAM Address Registers (Low)",
+      "Address": "0x2102",
+      "LabelShort": "OAMADDL",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "OAM Address Registers (High)",
+      "Address": "0x2103",
+      "LabelShort": "OAMADDH",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "OAM Data Write Register",
+      "Address": "0x2104",
+      "LabelShort": "OAMDATA",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "BG Mode and Character Size Register",
+      "Address": "0x2105",
+      "LabelShort": "BGMODE",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Mosaic Register",
+      "Address": "0x2106",
+      "LabelShort": "MOSAIC",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "BG Tilemap Address Registers (BG1)",
+      "Address": "0x2107",
+      "LabelShort": "BG1SC",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "BG Tilemap Address Registers (BG2)",
+      "Address": "0x2108",
+      "LabelShort": "BG2SC",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "BG Tilemap Address Registers (BG3)",
+      "Address": "0x2109",
+      "LabelShort": "BG3SC",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "BG Tilemap Address Registers (BG4)",
+      "Address": "0x210A",
+      "LabelShort": "BG4SC",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "BG Character Address Registers (BG1\u00262)",
+      "Address": "0x210B",
+      "LabelShort": "BG12NBA",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "BG Character Address Registers (BG3\u00264)",
+      "Address": "0x210C",
+      "LabelShort": "BG34NBA",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "BG Scroll Registers (BG1 Horizontal)",
+      "Address": "0x210D",
+      "LabelShort": "BG1HOFS",
+      "Style": "dual ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "BG Scroll Registers (BG1 Vertical)",
+      "Address": "0x210E",
+      "LabelShort": "BG1VOFS",
+      "Style": "dual ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "BG Scroll Registers (BG2 Horizontal)",
+      "Address": "0x210F",
+      "LabelShort": "BG2HOFS",
+      "Style": "dual ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "BG Scroll Registers (BG2 Vertical)",
+      "Address": "0x2110",
+      "LabelShort": "BG2VOFS",
+      "Style": "dual ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "BG Scroll Registers (BG3 Horizontal)",
+      "Address": "0x2111",
+      "LabelShort": "BG3HOFS",
+      "Style": "dual ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "BG Scroll Registers (BG3 Vertical)",
+      "Address": "0x2112",
+      "LabelShort": "BG3VOFS",
+      "Style": "dual ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "BG Scroll Registers (BG4 Horizontal)",
+      "Address": "0x2113",
+      "LabelShort": "BG4HOFS",
+      "Style": "dual ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "BG Scroll Registers (BG4 Vertical)",
+      "Address": "0x2114",
+      "LabelShort": "BG4VOFS",
+      "Style": "dual ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Video Port Control Register",
+      "Address": "0x2115",
+      "LabelShort": "VMAIN",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "VRAM Address Registers (Low)",
+      "Address": "0x2116",
+      "LabelShort": "VMADDL",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "VRAM Address Registers (High)",
+      "Address": "0x2117",
+      "LabelShort": "VMADDH",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "VRAM Data Write Registers (Low)",
+      "Address": "0x2118",
+      "LabelShort": "VMDATAL",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "VRAM Data Write Registers (High)",
+      "Address": "0x2119",
+      "LabelShort": "VMDATAH",
+      "Style": "single ",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "Mode 7 Settings Register",
+      "Address": "0x211A",
+      "LabelShort": "M7SEL",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "Mode 7 Matrix Registers",
+      "Address": "0x211B",
+      "LabelShort": "M7A",
+      "Style": "dual",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Mode 7 Matrix Registers",
+      "Address": "0x211C",
+      "LabelShort": "M7B",
+      "Style": "dual",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Mode 7 Matrix Registers",
+      "Address": "0x211D",
+      "LabelShort": "M7C",
+      "Style": "dual",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Mode 7 Matrix Registers",
+      "Address": "0x211E",
+      "LabelShort": "M7D",
+      "Style": "dual",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Mode 7 Matrix Registers",
+      "Address": "0x211F",
+      "LabelShort": "M7X",
+      "Style": "dual",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Mode 7 Matrix Registers",
+      "Address": "0x2120",
+      "LabelShort": "M7Y",
+      "Style": "dual",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "CGRAM Address Register",
+      "Address": "0x2121",
+      "LabelShort": "CGADD",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "CGRAM Data Write Register",
+      "Address": "0x2122",
+      "LabelShort": "CGDATA",
+      "Style": "dual",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Mask Settings Registers",
+      "Address": "0x2123",
+      "LabelShort": "W12SEL",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Mask Settings Registers",
+      "Address": "0x2124",
+      "LabelShort": "W34SEL",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Mask Settings Registers",
+      "Address": "0x2125",
+      "LabelShort": "WOBJSEL",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Position Registers (WH0)",
+      "Address": "0x2126",
+      "LabelShort": "WH0",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Position Registers (WH1)",
+      "Address": "0x2127",
+      "LabelShort": "WH1",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Position Registers (WH2)",
+      "Address": "0x2128",
+      "LabelShort": "WH2",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Position Registers (WH3)",
+      "Address": "0x2129",
+      "LabelShort": "WH3",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Mask Logic registers (BG)",
+      "Address": "0x212A",
+      "LabelShort": "WBGLOG",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Mask Logic registers (OBJ)",
+      "Address": "0x212B",
+      "LabelShort": "WOBJLOG",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Screen Destination Registers",
+      "Address": "0x212C",
+      "LabelShort": "TM",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Screen Destination Registers",
+      "Address": "0x212D",
+      "LabelShort": "TS",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Mask Destination Registers",
+      "Address": "0x212E",
+      "LabelShort": "TMW",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Window Mask Destination Registers",
+      "Address": "0x212F",
+      "LabelShort": "TSW",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Color Math Registers",
+      "Address": "0x2130",
+      "LabelShort": "CGWSEL",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Color Math Registers",
+      "Address": "0x2131",
+      "LabelShort": "CGADSUB",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Color Math Registers",
+      "Address": "0x2132",
+      "LabelShort": "COLDATA",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Screen Mode Select Register",
+      "Address": "0x2133",
+      "LabelShort": "SETINI",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Multiplication Result Registers",
+      "Address": "0x2134",
+      "LabelShort": "MPYL",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Multiplication Result Registers",
+      "Address": "0x2135",
+      "LabelShort": "MPYM",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Multiplication Result Registers",
+      "Address": "0x2136",
+      "LabelShort": "MPYH",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "f-blank, v-blank, h-blank"
+    },
+    {
+      "Label": "Software Latch Register",
+      "Address": "0x2137",
+      "LabelShort": "SLHV",
+      "Style": "single",
+      "Access": "",
+      "Timing": "any time"
+    },
+    {
+      "Label": "OAM Data Read Register",
+      "Address": "0x2138",
+      "LabelShort": "OAMDATAREAD",
+      "Style": "dual",
+      "Access": "read",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "VRAM Data Read Register (Low)",
+      "Address": "0x2139",
+      "LabelShort": "VMDATALREAD",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "VRAM Data Read Register (High)",
+      "Address": "0x213A",
+      "LabelShort": "VMDATAHREAD",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "CGRAM Data Read Register",
+      "Address": "0x213B",
+      "LabelShort": "CGDATAREAD",
+      "Style": "dual",
+      "Access": "read",
+      "Timing": "f-blank, v-blank"
+    },
+    {
+      "Label": "Scanline Location Registers (Horizontal)",
+      "Address": "0x213C",
+      "LabelShort": "OPHCT",
+      "Style": "dual",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Scanline Location Registers (Vertical)",
+      "Address": "0x213D",
+      "LabelShort": "OPVCT",
+      "Style": "dual",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "PPU Status Register",
+      "Address": "0x213E",
+      "LabelShort": "STAT77",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "PPU Status Register",
+      "Address": "0x213F",
+      "LabelShort": "STAT78",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "WRAM Data Register",
+      "Address": "0x2180",
+      "LabelShort": "WMDATA",
+      "Style": "single",
+      "Access": "both",
+      "Timing": "any time"
+    },
+    {
+      "Label": "WRAM Address Registers",
+      "Address": "0x2181",
+      "LabelShort": "WMADDL",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "WRAM Address Registers",
+      "Address": "0x2182",
+      "LabelShort": "WMADDM",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "WRAM Address Registers",
+      "Address": "0x2183",
+      "LabelShort": "WMADDH",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    }
+  ],
+  "Name": "PPU",
+  "Color": "#207020"
+}

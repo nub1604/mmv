@@ -1,0 +1,246 @@
+{
+  "LayoutList": [
+    {
+      "Label": "Interrupt Enable Register",
+      "Address": "0x4200",
+      "LabelShort": "NMITIMEN",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "IO Port Write Register",
+      "Address": "0x4201",
+      "LabelShort": "WRIO",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Multiplicand Registers",
+      "Address": "0x4202",
+      "LabelShort": "WRMPYA",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Multiplicand Registers",
+      "Address": "0x4203",
+      "LabelShort": "WRMPYB",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Divisor \u0026 Dividend Registers",
+      "Address": "0x4204",
+      "LabelShort": "WRDIVL",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Divisor \u0026 Dividend Registers",
+      "Address": "0x4205",
+      "LabelShort": "WRDIVH",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Divisor \u0026 Dividend Registers",
+      "Address": "0x4206",
+      "LabelShort": "WRDIVB",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "IRQ Timer Registers (Horizontal - Low)",
+      "Address": "0x4207",
+      "LabelShort": "HTIMEL",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "IRQ Timer Registers (Horizontal - High)",
+      "Address": "0x4208",
+      "LabelShort": "HTIMEH",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "IRQ Timer Registers (Vertical - Low)",
+      "Address": "0x4209",
+      "LabelShort": "VTIMEL",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "IRQ Timer Registers (Vertical - High)",
+      "Address": "0x420A",
+      "LabelShort": "VTIMEH",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "DMA Enable Register",
+      "Address": "0x420B",
+      "LabelShort": "MDMAEN",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "HDMA Enable Register",
+      "Address": "0x420C",
+      "LabelShort": "HDMAEN",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "ROM Speed Register",
+      "Address": "0x420D",
+      "LabelShort": "MEMSEL",
+      "Style": "single",
+      "Access": "write",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Interrupt Flag Registers",
+      "Address": "0x4210",
+      "LabelShort": "RDNMI",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Interrupt Flag Registers",
+      "Address": "0x4211",
+      "LabelShort": "TIMEUP",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "PPU Status Register",
+      "Address": "0x4212",
+      "LabelShort": "HVBJOY",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "IO Port Read Register",
+      "Address": "0x4213",
+      "LabelShort": "RDIO",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Multiplication Or Divide Result Registers (Low)",
+      "Address": "0x4214",
+      "LabelShort": "RDDIVL",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Multiplication Or Divide Result Registers (High)",
+      "Address": "0x4215",
+      "LabelShort": "RDDIVH",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Multiplication Or Divide Result Registers (Low)",
+      "Address": "0x4216",
+      "LabelShort": "RDMPYL",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Multiplication Or Divide Result Registers (High)",
+      "Address": "0x4217",
+      "LabelShort": "RDMPYH",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time"
+    },
+    {
+      "Label": "Controller Port Data Registers (Pad 1 - Low)",
+      "Address": "0x4218",
+      "LabelShort": "JOY1L",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time that is not auto-joypad"
+    },
+    {
+      "Label": "Controller Port Data Registers (Pad 1 - High)",
+      "Address": "0x4219",
+      "LabelShort": "JOY1H",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time that is not auto-joypad"
+    },
+    {
+      "Label": "Controller Port Data Registers (Pad 2 - Low)",
+      "Address": "0x421A",
+      "LabelShort": "JOY2L",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time that is not auto-joypad"
+    },
+    {
+      "Label": "Controller Port Data Registers (Pad 2 - High)",
+      "Address": "0x421B",
+      "LabelShort": "JOY2H",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time that is not auto-joypad"
+    },
+    {
+      "Label": "Controller Port Data Registers (Pad 3 - Low)",
+      "Address": "0x421C",
+      "LabelShort": "JOY3L",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time that is not auto-joypad"
+    },
+    {
+      "Label": "Controller Port Data Registers (Pad 3 - High)",
+      "Address": "0x421D",
+      "LabelShort": "JOY3H",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time that is not auto-joypad"
+    },
+    {
+      "Label": "Controller Port Data Registers (Pad 4 - Low)",
+      "Address": "0x421E",
+      "LabelShort": "JOY4L",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time that is not auto-joypad"
+    },
+    {
+      "Label": "Controller Port Data Registers (Pad 4 - High)",
+      "Address": "0x421F",
+      "LabelShort": "JOY4H",
+      "Style": "single",
+      "Access": "read",
+      "Timing": "any time that is not auto-joypad"
+    }
+  ],
+  "Name": "CPU",
+  "Color": "#202070"
+}
